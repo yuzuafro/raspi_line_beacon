@@ -2,7 +2,7 @@
 
 ## 作成するシステム
 
-スマートフォンを持ってRaspberry Pi(Beacon)に近づくと、スマートフォンのLINEアプリに  
+スマートフォンを持ってRaspberry Pi(Beacon)に近づくと、スマートフォンのLINEアプリに  
 Raspberry Pi(Beacon)からのメッセージが届くシステムを作成します。
 
 さらに詳細な構成のイメージです。
