@@ -1,4 +1,4 @@
-# Raspberry Pi × LINE Simple Beacon × Google Apps Script で入退出通知
+# Raspberry Pi × LINE Simple Beacon × Google Apps Script でビーコンシステムを作成してみよう
 
 ## 資料
 - [事前準備と用語説明](docs/prepare.md)
