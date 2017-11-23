@@ -28,7 +28,7 @@ Googleのアカウントを作成してください。
 
 ## 用語説明
 
-今回作成するシステムを構築する上で知っておく必要がある用語がありますので、簡単に紹介します。
+今回作成するシステムを構築する上で知っておく必要がある用語がありますので、簡単に紹介します。
 
 ---
 
@@ -43,7 +43,7 @@ LINE@はLINEが提供している事業者向けアカウントです。
 
 "LINE@". http://at.line.me/jp/
 
-個人でも使用することができ、フリープランは無料で使用できます。(2017/11/23現在)  
+個人でも使用することができ、フリープランは無料で使用できます。(2017/11/23現在)  
 "LINE@の料金プラン". LINE@ プラン・料金. http://at.line.me/jp/plan  
 
 ---
@@ -63,8 +63,8 @@ LINE Messaging APIは、LINE@と組み合わせてチャットボットを実現
 
 "Messaging API". LINE developers ドキュメント. https://developers.line.me/ja/docs/messaging-api/overview/
 
-Messaging APIにも料金プランがあり、Developer Trialは無料で使うことができます。(2017/11/23現在)  
-"Messaging APIで利用できる料金プラン". LINE@ プラン・料金. 
+Messaging APIにも料金プランがあり、Developer Trialは無料で使うことができます。(2017/11/23現在)  
+"Messaging APIで利用できる料金プラン". LINE@ プラン・料金. 
 http://at.line.me/jp/plan  
 
 ---
@@ -108,5 +108,5 @@ Google Apps Scriptは、Googleが提供するクラウド上のスクリプト�
 
 ---
 
-次は、[システム概要](overview.md) へ進みます。
+次は、[システム概要](overview.md) へ進みます。
 
