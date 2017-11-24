@@ -28,23 +28,27 @@ Googleのアカウントを作成してください。
 
 ## 用語説明
 
-今回作成するシステムを構築する上で知っておく必要がある用語がありますので、簡単に紹介します。
+今回作成するシステムを構築する上で知っておく必要がある用語がありますので、簡単に紹介します。
 
 ---
 
 ### LINE@
 
-LINE@はLINEが提供している事業者向けアカウントです。  
-スポーツ選手のアカウントのようにブログ配信情報などを通知してくれる一方通行のものや、  
-ヤマト運輸のアカウントのように再配達以来などの双方向のコミュニケーションができるものもあります。  
+LINE@はLINEが提供している事業者向けアカウントです。   
+主に中小規模の事業者を対象としています。(大規模な事業者向けのものはLINE公式アカウントになります)  
+
+店舗のアカウントとしてLINE@アカウントを作成すれば、セール情報の通知などを行ったり、  
+1:1トークで双方向のコミュニケーションをしたりできます。  
 
 > LINE@は、ビジネスや情報発信に活用できる会社・事業者向けのLINEアカウントです。  
 > 企業、ブランド、商品の魅力をお客様に発信するためのさまざまな機能が備わっています。
 
 "LINE@". http://at.line.me/jp/
 
-個人でも使用することができ、フリープランは無料で使用できます。(2017/11/23現在)  
+個人でも使用することができ、フリープランは無料で使用できます。(2017/11/23現在)  
 "LINE@の料金プラン". LINE@ プラン・料金. http://at.line.me/jp/plan  
+
+今回は、LINE@のフリープランと、LINE Messaging APIのDeveloper Trialを使用します。
 
 ---
 
@@ -63,9 +67,26 @@ LINE Messaging APIは、LINE@と組み合わせてチャットボットを実現
 
 "Messaging API". LINE developers ドキュメント. https://developers.line.me/ja/docs/messaging-api/overview/
 
-Messaging APIにも料金プランがあり、Developer Trialは無料で使うことができます。(2017/11/23現在)  
-"Messaging APIで利用できる料金プラン". LINE@ プラン・料金. 
+Messaging APIにも料金プランがあり、Developer Trialは無料で使うことができます。(2017/11/23現在)  
+"Messaging APIで利用できる料金プラン". LINE@ プラン・料金. 
 http://at.line.me/jp/plan  
+
+Messaging APIを利用すると、1:1トークなどLINE@の一部機能が使えなくなります。
+
+---
+
+### LINE@MANAGERとLINE Developers
+
+LINE@MANAGERは、LINE@アカウントの設定を行うページです。  
+https://admin-official.line.me/
+
+LINE Developersは、LINE Messaging APIやLINEログインの設定を行うページです。  
+https://developers.line.me/
+
+通常のLINE@アカウントを作成する場合はLINE@MANAGERから作成すればよいですが、  
+Developer TrialのLINE@アカウント(Channel)は、LINE Developersから作成する必要があります。  
+
+また、通常のLINE@アカウントを使用する場合でも、Messaging APIの設定はLINE Developersから行う必要があります。
 
 ---
 
@@ -108,5 +129,5 @@ Google Apps Scriptは、Googleが提供するクラウド上のスクリプト�
 
 ---
 
-次は、[システム概要](overview.md) へ進みます。
+次は、[システム概要](overview.md) へ進みます。
 
