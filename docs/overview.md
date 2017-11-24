@@ -19,7 +19,7 @@ Raspberry Pi(Beacon)からのメッセージが届くシステムを作成しま
   * LINE Simple Beaconに紐づけられたLINE Botを友達登録する
   * LINEアプリをインストールしたスマートフォンを持ってRaspberry Piに近づくと
     * (Case 1)ユーザのLINEアプリにメッセージが届く(応答メッセージ)
-    * (Case 2)Case 1に追加して、開発者のLINEグループにメッセージが届く(プッシュメッセージ)
+    * (Case 2)Case 1に追加して、特定のLINEグループにメッセージが届く(プッシュメッセージ)
 
 ![](img/overview_001.png)
 

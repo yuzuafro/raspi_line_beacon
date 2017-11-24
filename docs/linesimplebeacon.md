@@ -3,7 +3,7 @@
 LINE Botで、おうむ返しBotやIDを取得できるBotを作成できました。  
 最後に、Raspberry PiにLINE Simple Beacon環境を構築し、LINE Botと連携させましょう。
 
-## LINE Simple BeaconのHWIDの払い出し
+## LINE Simple BeaconのハードウェアIDの払い出し
 
 LINE Simple Beaconを使用するためにはハードウェアIDを発行してもらう必要があります。  
 以下のページから申請します。  
@@ -22,6 +22,9 @@ https://admin-official.line.me/beacon/register#/
 <img src="img/linesimplebeacon_003.png" width="450px">
 
 ---
+
+## Raspberry Piの設定
+
 ここから先は Raspberry Pi上の操作になります。  
 PCからsshでログインして、コマンド実行ができる状態になっているという前提です。
 
