@@ -231,7 +231,7 @@ https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app
 
 ### LINE Messaging API の ドキュメント
 
-"Messaging API". LINE Developers ドキュメント.  
+"Messaging API". LINE Developers ドキュメント.
 https://developers.line.me/ja/docs/messaging-api/overview/
 
 "APIリファレンス". LINE Developers ドキュメント Messaging API.  
