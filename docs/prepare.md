@@ -11,15 +11,39 @@
 LINE@を使用する際にメールアドレス登録が必要となります。  
 スマートフォンのLINEアプリでメールアドレス登録を行ってください。  
 
-LINEアプリの その他 → 設定 → アカウント → メールアドレス
+LINEアプリの 「その他」→「設定」
 
-![](img/prepare_001.png) 
+<img src="img/prepare_001.png" width="240px">  
 
-![](img/prepare_002.png)
+「アカウント」  
 
-![](img/prepare_003.png)
+<img src="img/prepare_002.png" width="240px">  
 
-メールアドレスが登録完了となっていればOKです。
+「メールアドレス」
+
+<img src="img/prepare_003.png" width="240px">  
+
+メールアドレス、パスワードが登録完了となっていればOKです。
+
+### LINE Beacon利用設定
+
+今回のハンズオンではLINE Simple Beaconを使用します。  
+LINEアプリ側で設定を有効にしておく必要があります。
+
+「その他」→「設定」
+
+<img src="img/prepare_001.png" width="240px">
+
+「プライバシー管理」
+
+<img src="img/prepare_006.png" width="240px">
+
+「LINE Beaconを利用」にチェックを入れます。
+
+<img src="img/prepare_007.png" width="240px">
+
+Bluetoothをオンにして、「同意して利用開始」をタップします。
+
 
 ### Googleアカウントの登録
 
