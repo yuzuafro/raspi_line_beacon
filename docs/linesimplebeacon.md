@@ -111,7 +111,7 @@ http://qiita.com/n0bisuke/items/60523ea48109320ad4a5
 "line-simple-beacon". GitHub.  
 https://github.com/line/line-simple-beacon
 
-"Ubuntuに最新のNode.jsを難なくインストールする". Qiita.
+"Ubuntuに最新のNode.jsを難なくインストールする". Qiita.  
 https://qiita.com/seibe/items/36cef7df85fe2cefa3ea
 
 ---
