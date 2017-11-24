@@ -17,7 +17,7 @@ https://admin-official.line.me/beacon/register#/
 
 <img src="img/linesimplebeacon_002.png" width="450px">
 
-ハードウェアIDの発行をクリックし、発行されたID(10桁の16進数の値)を控えておきます。
+ハードウェアIDの発行をクリックし、発行されたID(10桁の16進数の値)を控えておきます。
 
 <img src="img/linesimplebeacon_003.png" width="450px">
 
@@ -76,7 +76,7 @@ $ npm install
 ## ビーコンの実行
 
 セットアップが終わったら、LINE Simple Beaconを実行します。  
-オプションの --hwid には先ほど取得したハードウェアIDを設定します。
+オプションの --hwid には先ほど取得したハードウェアIDを設定します。
 
 ```bash
 $ sudo ./simplebeacon.js --hwid=xxxxxxxxxx
@@ -90,7 +90,7 @@ stateChange: poweredOn
 <img src="img/linesimplebeacon_004.png" width="400px">
 
 スマートフォンを持ったままRaspberry Piから遠ざかると、退出のメッセージが届くはずです。  
-(理論的には5m程度までの範囲が検出されるらしい)
+(理論的には5m程度までの範囲が検出されるらしい)
 
 LINE Simple Beaconのプログラムを終了させる際は、ctrl+c で終了します。
 
