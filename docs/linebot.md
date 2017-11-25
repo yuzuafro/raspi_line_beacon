@@ -77,7 +77,7 @@ function doPost(e) {
 * プロジェクトバージョン
   * 新規作成
   * ver.1 を入力
-* アプリケーションのアクセスできるユーザー
+* アプリケーションにアクセスできるユーザー
   * 全員(匿名ユーザーを含む)に変更
 
 <img src="img/linebot_004.png" width="400px">
@@ -235,8 +235,11 @@ https://developers.line.me/ja/docs/messaging-api/overview/
 "APIリファレンス". LINE Developers ドキュメント Messaging API.  
 https://developers.line.me/ja/docs/messaging-api/reference/
 
-* メッセージ 応答メッセージを送る
-* Webhookイベントオブジェクト ビーコンイベント
-* プロフィール プロフィールを取得する
+* メッセージ
+  * 応答メッセージを送る
+* Webhookイベントオブジェクト
+  * ビーコンイベント
+* プロフィール
+  * プロフィールを取得する
 
 ---
